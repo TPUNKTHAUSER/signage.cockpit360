@@ -5,8 +5,6 @@ User-agent: *
 Allow: /
 
 # Wichtige Seiten
-Allow: /de
-Allow: /en
 Allow: /de/
 Allow: /en/
 
@@ -17,18 +15,7 @@ Allow: /images/
 Allow: /*.css
 Allow: /*.js
 
-# Spezifische Bots
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Googlebot-Image
-Allow: /images/
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 2
-
+# Social Bots
 User-agent: facebookexternalhit
 Allow: /
 

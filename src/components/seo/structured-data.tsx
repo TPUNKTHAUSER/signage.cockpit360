@@ -85,7 +85,7 @@ export default function StructuredData({ locale }: StructuredDataProps) {
     operatingSystem: "Web-based, Cloud",
     offers: {
       "@type": "Offer",
-      price: "39",
+      price: "29",
       priceCurrency: "EUR",
       priceValidUntil: "2026-12-31",
       availability: "https://schema.org/InStock",
@@ -122,6 +122,10 @@ export default function StructuredData({ locale }: StructuredDataProps) {
           "DSGVO-konform",
           "24/7 Betrieb",
           "Hoch- und Querformat",
+          "Hardwareunabhängig – Bring your own Device",
+          "Jeder Screen von 32 bis 98 Zoll",
+          "Keine teure Spezial-Hardware nötig",
+          "Smartphone-Verwaltung",
         ]
       : [
           "Digital exposé design for real estate agents",
@@ -135,6 +139,10 @@ export default function StructuredData({ locale }: StructuredDataProps) {
           "GDPR compliant",
           "24/7 operation",
           "Portrait and landscape mode",
+          "Hardware independent – bring your own device",
+          "Any screen from 32 to 98 inches",
+          "No expensive specialized hardware required",
+          "Smartphone management",
         ],
     screenshot: `${baseUrl}/images/signage-storefront-1.jpg`,
   };
@@ -210,6 +218,22 @@ export default function StructuredData({ locale }: StructuredDataProps) {
               text: "Ja. Sie bestimmen, wie Ihre digitalen Exposés aussehen: eigenes Logo, CI-Farben, Badges von Verbänden, individuelle Footer-Texte und Bildbearbeitung. Jedes Exposé lässt sich individuell gestalten und direkt auf Ihren Schaufenster-Displays anzeigen.",
             },
           },
+          {
+            "@type": "Question",
+            name: "Brauche ich spezielle Hardware für cockpit360 Signage?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Nein. cockpit360 Signage ist hardwareunabhängig. Sie können jeden beliebigen internetfähigen Screen nutzen – ob Samsung, LG, Philips oder iiyama. Auch ein vorhandener Smart TV funktioniert. So sind Sie nicht an teure Spezial-Hardware gebunden und können Displays jederzeit austauschen, ohne die Software zu wechseln.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Welche Displaygrößen werden unterstützt?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "cockpit360 Signage funktioniert auf Displays jeder Größe – von 32 bis 98 Zoll, im Hoch- oder Querformat. Ob einzelnes Schaufenster-Display, großer 4K-Screen oder Videowall: Die Darstellung passt sich automatisch an.",
+            },
+          },
         ]
       : [
           {
@@ -266,6 +290,22 @@ export default function StructuredData({ locale }: StructuredDataProps) {
             acceptedAnswer: {
               "@type": "Answer",
               text: "Yes. You determine how your digital exposés look: your own logo, CI colors, badges from associations, individual footer texts, and image editing. Each exposé can be individually designed and displayed directly on your storefront displays.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Do I need specialized hardware for cockpit360 Signage?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "No. cockpit360 Signage is hardware independent. You can use any internet-enabled screen – Samsung, LG, Philips, or iiyama. Even an existing Smart TV works. This way, you're not tied to expensive proprietary hardware and can swap displays at any time without changing software.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What display sizes are supported?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "cockpit360 Signage works on displays of any size – from 32 to 98 inches, in portrait or landscape format. Whether a single storefront display, large 4K screen, or video wall: the presentation adapts automatically.",
             },
           },
         ],
@@ -349,11 +389,11 @@ export default function StructuredData({ locale }: StructuredDataProps) {
       name: "Germany",
     },
     description: isDE
-      ? "Digitale Exposégestaltung und Schaufensterwerbung für Immobilienmakler. Digital- und Contentservice aus einer Hand: Schaufenster-Displays, Cloud-Portal, Full-Service Einrichtung."
-      : "Digital exposé design and storefront advertising for real estate agents. Digital and content service from one source: storefront displays, cloud portal, full-service setup.",
+      ? "Digitale Exposégestaltung und Schaufensterwerbung für Immobilienmakler. Digital- und Contentservice aus einer Hand: Schaufenster-Displays, Cloud-Portal, Full-Service Einrichtung. Hardwareunabhängig – Bring your own Device."
+      : "Digital exposé design and storefront advertising for real estate agents. Digital and content service from one source: storefront displays, cloud portal, full-service setup. Hardware independent – bring your own device.",
     offers: {
       "@type": "Offer",
-      price: "39",
+      price: "29",
       priceCurrency: "EUR",
     },
   };

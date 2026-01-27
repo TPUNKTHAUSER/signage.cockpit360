@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Digital Exposé for Real Estate Agents | Storefront Advertising & Design | cockpit360",
     "description": "Digital Exposés & Storefront Advertising for Real Estate Agents ✓ Exposé design on displays ✓ Digital content service all from one source ✓ Cloud-based ✓ QR codes ✓ Instantly live on TV & displays ✓ GDPR compliant ✓ Made in Germany",
-    "keywords": "digital exposé real estate agents, exposé design real estate, digital storefront advertising realtors, digital content service real estate, storefront advertising agents, digital exposés storefront, property display storefront, digital storefront realtor, exposé presentation display, storefront TV real estate, digital property presentation, window display real estate, interactive property display, real estate exposé software, Digital Signage real estate agents, cockpit360"
+    "keywords": "digital exposé real estate agents, exposé design real estate, digital storefront advertising realtors, digital content service real estate, storefront advertising agents, digital exposés storefront, property display storefront, digital storefront realtor, exposé presentation display, storefront TV real estate, digital property presentation, window display real estate, interactive property display, real estate exposé software, Digital Signage real estate agents, cockpit360, hardware independent digital signage, bring your own device signage, 4K display real estate, video wall realtor, cloud signage software, storefront display no special hardware"
   },
   "navigation": {
     "start": "Start",
@@ -89,7 +89,7 @@
     "feature3Title": "Real-time Updates",
     "feature3Text": "Changes to listings appear instantly on all displays",
     "feature4Title": "Easy Management",
-    "feature4Text": "Control all properties centrally through an intuitive interface",
+    "feature4Text": "Control all properties centrally through an intuitive interface – conveniently from your smartphone too",
     "feature5Title": "Professional Display",
     "feature5Text": "Optimized image display for any screen size, automatically adjusted",
     "feature6Title": "GDPR-compliant & Secure",
@@ -110,6 +110,18 @@
     "benefit3Text": "New properties or changes are visible immediately. Without printing costs, without delay, and without manual exchange processes.",
     "benefit4Title": "Build Trust",
     "benefit4Text": "A high-quality digital presentation signals professionalism, willingness to invest, and reliability. Qualities that property owners value when choosing their agent."
+  },
+  "competitiveEdge": {
+    "badge": "The Difference",
+    "title": "Why think A4 when the world is 4K?",
+    "subtitle": "Others just swap paper for small screens – we change the principle. With signage.cockpit360, you free yourself from expensive proprietary systems. Use any screen, any size, anywhere. Transform your storefront from a rigid listing wall into a vibrant stage for your brand. No rails, no format constraints, full freedom.",
+    "slogan": "Properties are too big for DIN-A4. Show greatness.",
+    "arg1Title": "Your Stage. Your Scale.",
+    "arg1Text": "Other providers force your properties into small A4 or A3 frames. With signage.cockpit360, you set the stage: Whether a 55\" display, a video wall, or an existing TV – your properties deserve the grand appearance.",
+    "arg1Highlight": "From 32 to 98 inches – you determine the impact.",
+    "arg2Title": "Hardware Independence as Investment Protection",
+    "arg2Text": "With other providers, you buy expensive specialized hardware that quickly becomes outdated. With us: Bring your own device. We are the software – you choose any screen from the open market. Samsung, LG, Philips, or iiyama.",
+    "arg2Highlight": "Swap the hardware, keep the software – your investment protection."
   },
   "multiOffice": {
     "title": "Multiple Offices? No Problem.",

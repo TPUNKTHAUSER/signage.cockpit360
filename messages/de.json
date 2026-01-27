@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Digitales Exposé für Immobilienmakler | Schaufensterwerbung & Exposégestaltung | cockpit360",
     "description": "Digitale Exposés & Schaufensterwerbung für Immobilienmakler ✓ Exposégestaltung auf Displays ✓ Digital- und Contentservice aus einer Hand ✓ Cloud-basiert ✓ QR-Codes ✓ Sofort live auf jedem TV & Display ✓ DSGVO-konform ✓ Made in Germany",
-    "keywords": "digitales Exposé Immobilienmakler, Exposégestaltung Immobilien, digitale Schaufensterwerbung Immobilienmakler, Digital- und Contentservice Immobilienmakler, Schaufensterwerbung Makler, digitale Exposés Schaufenster, Immobilien Display Schaufenster, digitales Schaufenster Makler, Exposé Präsentation Display, Schaufenster TV Immobilien, digitale Immobilienpräsentation, Schaufensterdisplay Immobilien, interaktives Exposé Makler, Immobilien Exposé Software, Digital Signage Immobilienmakler, cockpit360"
+    "keywords": "digitales Exposé Immobilienmakler, Exposégestaltung Immobilien, digitale Schaufensterwerbung Immobilienmakler, Digital- und Contentservice Immobilienmakler, Schaufensterwerbung Makler, digitale Exposés Schaufenster, Immobilien Display Schaufenster, digitales Schaufenster Makler, Exposé Präsentation Display, Schaufenster TV Immobilien, digitale Immobilienpräsentation, Schaufensterdisplay Immobilien, interaktives Exposé Makler, Immobilien Exposé Software, Digital Signage Immobilienmakler, cockpit360, hardwareunabhängig Digital Signage, Bring your own Device Signage, 4K Display Immobilien, Videowall Immobilienmakler, Cloud Signage Software, Schaufenster Display ohne Spezialhardware"
   },
   "navigation": {
     "start": "Start",
@@ -89,7 +89,7 @@
     "feature3Title": "Echtzeit-Updates",
     "feature3Text": "Änderungen am Exposé erscheinen sofort auf allen Displays",
     "feature4Title": "Einfache Verwaltung",
-    "feature4Text": "Alle Immobilien zentral steuern, über eine intuitive Oberfläche",
+    "feature4Text": "Alle Immobilien zentral steuern, über eine intuitive Oberfläche – auch bequem vom Smartphone",
     "feature5Title": "Professionelle Darstellung",
     "feature5Text": "Optimierte Bilddarstellung für jede Displaygröße, automatisch angepasst",
     "feature6Title": "DSGVO-konform & sicher",
@@ -110,6 +110,18 @@
     "benefit3Text": "Neue Immobilien oder Änderungen sind sofort sichtbar. Ganz ohne Druckkosten, ohne Verzögerung und ohne manuelle Austauschprozesse.",
     "benefit4Title": "Vertrauen schaffen",
     "benefit4Text": "Eine hochwertige, digitale Präsentation signalisiert Professionalität, Investitionsbereitschaft und Verlässlichkeit. Eigenschaften, die Eigentümer bei der Wahl ihres Maklers schätzen."
+  },
+  "competitiveEdge": {
+    "badge": "Der Unterschied",
+    "title": "Warum in DIN-A4 denken, wenn die Welt 4K ist?",
+    "subtitle": "Andere tauschen nur das Papier gegen kleine Bildschirme – wir tauschen das Prinzip. Mit signage.cockpit360 machen Sie sich unabhängig von teuren Spezial-Systemen. Nutzen Sie jeden Screen, in jeder Größe, überall. Verwandeln Sie Ihr Schaufenster von einer starren Exposé-Wand in eine lebendige Bühne für Ihre Marke. Keine Schienen, keine Format-Zwänge, volle Freiheit.",
+    "slogan": "Immobilien sind zu groß für DIN-A4. Zeigen Sie Größe.",
+    "arg1Title": "Ihre Bühne. Ihre Größe.",
+    "arg1Text": "Andere Anbieter zwingen Ihre Immobilien in kleine DIN-A4- oder DIN-A3-Rahmen. Mit signage.cockpit360 bestimmen Sie die Bühne: Ob ein 55\" Display, eine Videowall oder ein vorhandener TV – Ihre Immobilien verdienen den großen Auftritt.",
+    "arg1Highlight": "Von 32 bis 98 Zoll – Sie bestimmen die Wirkung.",
+    "arg2Title": "Hardware-Unabhängigkeit als Investitionsschutz",
+    "arg2Text": "Bei anderen Anbietern kaufen Sie teure Spezial-Hardware, die schnell veraltet. Bei uns gilt: Bring your own Device. Wir sind die Software – Sie wählen jeden beliebigen Screen vom freien Markt. Samsung, LG, Philips oder iiyama.",
+    "arg2Highlight": "Hardware tauschen, Software behalten – Ihr Investitionsschutz."
   },
   "multiOffice": {
     "title": "Mehrere Büros? Kein Problem.",

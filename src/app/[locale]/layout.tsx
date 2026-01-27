@@ -2,12 +2,19 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Poppins } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { Toaster } from "@/components/ui/sonner";
 import Navigation from "@/components/layout/navigation";
 import Footer from "@/components/layout/footer";
 import CookieProvider from "@/components/cookie/cookie-provider";
 import StructuredData from "@/components/seo/structured-data";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+});
 
 // Import messages directly for static export
 import deMessages from "../../../messages/de.json";
@@ -140,14 +147,18 @@ export default async function LocaleLayout({
   const messages = messagesMap[locale as keyof typeof messagesMap] || messagesMap.de;
 
   return (
-    <NextIntlClientProvider messages={messages}>
-      <StructuredData locale={locale} />
-      <CookieProvider>
-        <Navigation locale={locale} />
-        <main>{children}</main>
-        <Footer locale={locale} />
-        <Toaster />
-      </CookieProvider>
-    </NextIntlClientProvider>
+    <html lang={locale} className={poppins.variable} suppressHydrationWarning>
+      <body className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 text-gray-900 overflow-x-hidden font-[family-name:var(--font-poppins)]">
+        <NextIntlClientProvider messages={messages}>
+          <StructuredData locale={locale} />
+          <CookieProvider>
+            <Navigation locale={locale} />
+            <main>{children}</main>
+            <Footer locale={locale} />
+            <Toaster />
+          </CookieProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

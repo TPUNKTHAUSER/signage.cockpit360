@@ -7,6 +7,7 @@ import HardwareSection from "@/components/sections/hardware-section";
 import PricingSection from "@/components/sections/pricing-section";
 import BenefitsSection from "@/components/sections/benefits-section";
 import StandOutSection from "@/components/sections/stand-out-section";
+import CompetitiveEdgeSection from "@/components/sections/competitive-edge-section";
 import MultiOfficeSection from "@/components/sections/multi-office-section";
 import HowItWorksSection from "@/components/sections/how-it-works-section";
 import EditorSection from "@/components/sections/editor-section";
@@ -35,6 +36,7 @@ export default async function HomePage({
       <PricingSection />
       <BenefitsSection />
       <StandOutSection />
+      <CompetitiveEdgeSection />
       <MultiOfficeSection />
       <HowItWorksSection />
       <CloudPortalSection />

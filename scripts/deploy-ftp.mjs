@@ -4,11 +4,11 @@ import path from "path";
 const config = {
   host: process.env.FTP_HOST || "w02068e6.kasserver.com",
   user: process.env.FTP_USER || "f017ff14",
-  password: process.env.FTP_PASS,
+  password: process.env.FTP_PASS || "rLmUCPCNFM2EpUxZsj4b",
   secure: false,
 };
 
-const REMOTE_DIR = "/signage/out";
+const REMOTE_DIR = "/out";
 const LOCAL_DIR = path.resolve("out");
 
 async function deploy() {
