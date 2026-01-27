@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker-compose build:*)",
+      "Bash(npm run build:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(sort:*)",
+      "Bash(npm install:*)",
+      "Bash(node scripts/optimize-images.mjs:*)",
+      "Bash(grep:*)",
+      "Bash(findstr:*)"
+    ]
+  }
+}

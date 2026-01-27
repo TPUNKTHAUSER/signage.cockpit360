@@ -1,0 +1,51 @@
+# cockpit360 Signage - robots.txt
+# Digital Signage für Immobilienmakler
+
+User-agent: *
+Allow: /
+
+# Wichtige Seiten
+Allow: /de
+Allow: /en
+Allow: /de/
+Allow: /en/
+
+# Bilder für Suchmaschinen
+Allow: /images/
+
+# Statische Assets
+Allow: /*.css
+Allow: /*.js
+
+# Spezifische Bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://signage.cockpit360.de/sitemap.xml
+
+# Host
+Host: https://signage.cockpit360.de

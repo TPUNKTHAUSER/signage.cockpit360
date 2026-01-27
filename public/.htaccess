@@ -1,0 +1,8 @@
+# Minimal htaccess for Next.js static export
+DirectoryIndex index.html
+
+# Redirect root to German version
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^$ /de/ [L,R=302]
+</IfModule>
