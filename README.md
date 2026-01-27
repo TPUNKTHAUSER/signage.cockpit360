@@ -32,7 +32,24 @@ npm run build
 
 Erzeugt statische Dateien im `out/`-Verzeichnis, bereit für das Deployment auf jedem Webserver.
 
-## Docker
+## Deployment
+
+### FTP (all-inkl)
+
+```bash
+npm run build
+FTP_PASS=dein-passwort node scripts/deploy-ftp.mjs
+```
+
+Baut das Projekt und lädt den `out/`-Ordner per FTP auf den Server. Die FTP-Zugangsdaten (Host, User) sind im Script hinterlegt, das Passwort wird als Umgebungsvariable übergeben.
+
+Alternativ über `.env`:
+
+```env
+FTP_PASS=dein-passwort
+```
+
+### Docker
 
 ```bash
 docker compose up -d --build
