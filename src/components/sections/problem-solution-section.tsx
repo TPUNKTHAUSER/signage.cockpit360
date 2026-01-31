@@ -26,9 +26,7 @@ export default function ProblemSolutionSection() {
           {/* Right: Feature Box */}
           <div>
             <div className="rounded-2xl border border-slate-100 p-8 md:p-10">
-              <div className="w-10 h-10 bg-blue-500/10 rounded-lg flex items-center justify-center text-blue-600 mb-6">
-                <MonitorSmartphone className="w-5 h-5" />
-              </div>
+              <MonitorSmartphone className="w-6 h-6 text-blue-600 mb-6" />
 
               <h3 className="text-lg sm:text-xl font-semibold text-slate-900 mb-3">{t("boxTitle")}</h3>
               <p className="text-slate-500 leading-relaxed mb-6 text-sm sm:text-base">

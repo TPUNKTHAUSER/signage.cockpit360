@@ -73,9 +73,7 @@ export default function Footer({ locale }: FooterProps) {
           {/* Quick Links - Desktop only */}
           <div className="hidden md:block">
             <h3 className="text-lg font-semibold text-slate-900 mb-5 flex items-center gap-2">
-              <div className="w-8 h-8 bg-blue-500/10 rounded-lg flex items-center justify-center">
-                <Navigation className="w-4 h-4 text-blue-600" />
-              </div>
+              <Navigation className="w-4 h-4 text-blue-600" />
               {t("navigation")}
             </h3>
             <ul className="space-y-3">
@@ -121,17 +119,13 @@ export default function Footer({ locale }: FooterProps) {
           {/* Contact Info - Desktop only */}
           <div className="hidden md:block">
             <h3 className="text-lg font-semibold text-slate-900 mb-5 flex items-center gap-2">
-              <div className="w-8 h-8 bg-emerald-500/10 rounded-lg flex items-center justify-center">
-                <Mail className="w-4 h-4 text-emerald-600" />
-              </div>
+              <Mail className="w-4 h-4 text-emerald-600" />
               {t("contactTitle")}
             </h3>
             <div className="space-y-4">
               <div className="group glass-light rounded-xl p-3 border border-slate-200/50 hover:border-blue-200/50 transition-colors">
                 <div className="flex items-start gap-3">
-                  <div className="w-9 h-9 bg-blue-500/10 rounded-lg flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-                    <Mail className="w-4 h-4 text-blue-600" />
-                  </div>
+                  <Mail className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                   <div>
                     <span className="text-xs text-slate-500 block mb-0.5">
                       {t("email")}
@@ -148,9 +142,7 @@ export default function Footer({ locale }: FooterProps) {
 
               <div className="group glass-light rounded-xl p-3 border border-slate-200/50 hover:border-emerald-200/50 transition-colors">
                 <div className="flex items-start gap-3">
-                  <div className="w-9 h-9 bg-emerald-500/10 rounded-lg flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-                    <MapPin className="w-4 h-4 text-emerald-600" />
-                  </div>
+                  <MapPin className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                   <div>
                     <span className="text-xs text-slate-500 block mb-0.5">
                       {t("location")}
@@ -168,9 +160,7 @@ export default function Footer({ locale }: FooterProps) {
           {/* Features & Hosting - Desktop only */}
           <div className="hidden md:block md:col-start-6">
             <h3 className="text-lg font-semibold text-slate-900 mb-5 flex items-center gap-2">
-              <div className="w-8 h-8 bg-emerald-500/10 rounded-lg flex items-center justify-center">
-                <CheckCircle className="w-4 h-4 text-emerald-600" />
-              </div>
+              <CheckCircle className="w-4 h-4 text-emerald-600" />
               {t("quality")}
             </h3>
 

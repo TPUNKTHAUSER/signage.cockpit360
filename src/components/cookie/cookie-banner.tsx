@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { Cookie, Check, Settings, X, ShieldCheck, BarChart3, Megaphone, UserCog } from "lucide-react";
+import { Cookie, Check, Settings, ShieldCheck, BarChart3, Megaphone, UserCog } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -38,7 +38,7 @@ export default function CookieBanner({
   const [showModal, setShowModal] = useState(false);
 
   const handleToggle = (key: keyof CookiePreferences) => {
-    if (key === "necessary") return; // Can't toggle necessary
+    if (key === "necessary") return;
     onPreferencesChange({
       ...preferences,
       [key]: !preferences[key],
@@ -90,17 +90,13 @@ export default function CookieBanner({
       <Dialog open={showModal} onOpenChange={setShowModal}>
         <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
           <DialogHeader className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white p-6 -m-6 mb-6 rounded-t-lg">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
-                  <Settings className="w-5 h-5" />
-                </div>
-                <div>
-                  <DialogTitle className="text-2xl font-bold text-white">
-                    {t("manageTitle")}
-                  </DialogTitle>
-                  <p className="text-white/90 mt-1">{t("manageSubtitle")}</p>
-                </div>
+            <div className="flex items-center gap-3">
+              <Settings className="w-6 h-6" />
+              <div>
+                <DialogTitle className="text-2xl font-bold text-white">
+                  {t("manageTitle")}
+                </DialogTitle>
+                <p className="text-white/90 mt-1">{t("manageSubtitle")}</p>
               </div>
             </div>
           </DialogHeader>
@@ -110,9 +106,7 @@ export default function CookieBanner({
             <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-6 border border-emerald-100">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-teal-500 rounded-xl flex items-center justify-center text-white">
-                    <ShieldCheck className="w-5 h-5" />
-                  </div>
+                  <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0" />
                   <h3 className="text-lg font-bold text-gray-900">
                     {t("necessaryTitle")}
                   </h3>
@@ -126,9 +120,7 @@ export default function CookieBanner({
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border border-blue-100">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-xl flex items-center justify-center text-white">
-                    <BarChart3 className="w-5 h-5" />
-                  </div>
+                  <BarChart3 className="w-5 h-5 text-blue-600 shrink-0" />
                   <h3 className="text-lg font-bold text-gray-900">
                     {t("analyticsTitle")}
                   </h3>
@@ -145,9 +137,7 @@ export default function CookieBanner({
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-100">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-500 rounded-xl flex items-center justify-center text-white">
-                    <Megaphone className="w-5 h-5" />
-                  </div>
+                  <Megaphone className="w-5 h-5 text-purple-600 shrink-0" />
                   <h3 className="text-lg font-bold text-gray-900">
                     {t("marketingTitle")}
                   </h3>
@@ -164,9 +154,7 @@ export default function CookieBanner({
             <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-6 border border-orange-100">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-orange-600 to-amber-500 rounded-xl flex items-center justify-center text-white">
-                    <UserCog className="w-5 h-5" />
-                  </div>
+                  <UserCog className="w-5 h-5 text-orange-600 shrink-0" />
                   <h3 className="text-lg font-bold text-gray-900">
                     {t("preferenceTitle")}
                   </h3>

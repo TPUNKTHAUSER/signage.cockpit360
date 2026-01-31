@@ -37,9 +37,7 @@ export default function CompetitiveEdgeSection() {
           {/* Argument 1: Display Freedom */}
           <div className="rounded-xl border border-slate-100 border-t-4 border-t-blue-500 p-6 sm:p-8 bg-slate-50/50">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 bg-blue-500/10 rounded-lg flex items-center justify-center text-blue-600">
-                <Maximize2 className="w-5 h-5" />
-              </div>
+              <Maximize2 className="w-5 h-5 text-blue-600 shrink-0" />
               <h3 className="text-lg font-semibold text-slate-900">
                 {t("arg1Title")}
               </h3>
@@ -60,9 +58,7 @@ export default function CompetitiveEdgeSection() {
           {/* Argument 2: Hardware Independence */}
           <div className="rounded-xl border border-slate-100 border-t-4 border-t-emerald-500 p-6 sm:p-8 bg-slate-50/50">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 bg-emerald-500/10 rounded-lg flex items-center justify-center text-emerald-600">
-                <ShieldCheck className="w-5 h-5" />
-              </div>
+              <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0" />
               <h3 className="text-lg font-semibold text-slate-900">
                 {t("arg2Title")}
               </h3>

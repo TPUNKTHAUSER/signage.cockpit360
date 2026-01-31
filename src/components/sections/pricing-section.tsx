@@ -9,21 +9,11 @@ export default function PricingSection() {
   const t = useTranslations("pricing");
 
   const featureCards = [
-    { icon: Layout, title: t("card1Title"), text: t("card1Text"), color: "blue", size: "large" },
-    { icon: Layers, title: t("card2Title"), text: t("card2Text"), color: "emerald", size: "small" },
-    { icon: Play, title: t("card3Title"), text: t("card3Text"), color: "purple", size: "small" },
-    { icon: Settings, title: t("card4Title"), text: t("card4Text"), color: "orange", size: "large" },
+    { icon: Layout, title: t("card1Title"), text: t("card1Text"), color: "text-blue-400", size: "large" },
+    { icon: Layers, title: t("card2Title"), text: t("card2Text"), color: "text-emerald-400", size: "small" },
+    { icon: Play, title: t("card3Title"), text: t("card3Text"), color: "text-purple-400", size: "small" },
+    { icon: Settings, title: t("card4Title"), text: t("card4Text"), color: "text-orange-400", size: "large" },
   ];
-
-  const getColor = (color: string) => {
-    const map: Record<string, { bg: string; text: string }> = {
-      blue: { bg: "bg-blue-500/20", text: "text-blue-400" },
-      emerald: { bg: "bg-emerald-500/20", text: "text-emerald-400" },
-      purple: { bg: "bg-purple-500/20", text: "text-purple-400" },
-      orange: { bg: "bg-orange-500/20", text: "text-orange-400" },
-    };
-    return map[color] || map.blue;
-  };
 
   return (
     <section id="preise" className="py-16 sm:py-20 px-4 sm:px-6 bg-slate-900 text-white">
@@ -99,23 +89,18 @@ export default function PricingSection() {
 
           {/* Feature Cards */}
           <div className="lg:col-span-3 grid sm:grid-cols-2 gap-4 content-start">
-            {featureCards.map((card, index) => {
-              const c = getColor(card.color);
-              return (
-                <div
-                  key={index}
-                  className={`bg-white/5 rounded-xl border border-white/10 p-5 ${
-                    card.size === "large" ? "sm:col-span-2" : ""
-                  }`}
-                >
-                  <div className={`w-9 h-9 ${c.bg} rounded-lg flex items-center justify-center ${c.text} mb-3`}>
-                    <card.icon className="w-4 h-4" />
-                  </div>
-                  <h3 className="font-semibold text-white mb-1.5">{card.title}</h3>
-                  <p className="text-slate-400 text-sm leading-relaxed">{card.text}</p>
-                </div>
-              );
-            })}
+            {featureCards.map((card, index) => (
+              <div
+                key={index}
+                className={`bg-white/5 rounded-xl border border-white/10 p-5 ${
+                  card.size === "large" ? "sm:col-span-2" : ""
+                }`}
+              >
+                <card.icon className={`w-5 h-5 ${card.color} mb-3`} />
+                <h3 className="font-semibold text-white mb-1.5">{card.title}</h3>
+                <p className="text-slate-400 text-sm leading-relaxed">{card.text}</p>
+              </div>
+            ))}
           </div>
         </div>
 
