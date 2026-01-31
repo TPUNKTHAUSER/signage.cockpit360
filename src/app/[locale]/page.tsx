@@ -29,10 +29,10 @@ export default async function HomePage({
   return (
     <>
       <HeroSection />
-      <ProblemSolutionSection />
+      <HardwareSection />
       <EditorSection />
       <ShowcaseSection />
-      <HardwareSection />
+      <ProblemSolutionSection />
       <PricingSection />
       <BenefitsSection />
       <StandOutSection />
