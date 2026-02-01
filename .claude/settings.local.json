@@ -9,7 +9,25 @@
       "Bash(npm install:*)",
       "Bash(node scripts/optimize-images.mjs:*)",
       "Bash(grep:*)",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ncockpit360 Signage – vollständige Anwendung mit SEO-Optimierung\n\nKomplette Next.js 16 Anwendung für digitale Exposés und Schaufensterwerbung:\n- i18n \\(DE/EN\\) mit next-intl\n- SEO: Meta-Tags, Structured Data \\(JSON-LD\\), Sitemap, robots.txt\n- Keywords optimiert für: digitales Exposé Immobilienmakler, Exposégestaltung, Schaufensterwerbung, Contentservice\n- Docker-Setup mit nginx für Static Export\n- Alle Sections, Komponenten, Styling und Assets\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(docker compose up:*)",
+      "WebFetch(domain:esysync.com)",
+      "WebFetch(domain:avanto-vr.com)",
+      "Bash(npx next build)",
+      "Bash(docker compose build:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker logs:*)",
+      "Bash(docker exec:*)",
+      "Bash(python:*)",
+      "Bash(docker rm:*)",
+      "Bash(docker build:*)",
+      "Bash(docker run:*)",
+      "Bash(node scripts/deploy-ftp.mjs:*)",
+      "Bash(explorer \"C:\\\\Users\\\\t.hauser\\\\Desktop\\\\QR Projekt\")",
+      "Bash(docker compose:*)",
+      "Bash(git ftp:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nrobots.txt nach robots.ts migriert, sitemap.xml aktualisiert\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
