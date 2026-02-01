@@ -3,101 +3,181 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Deutsche Hauptseite -->
+  <!-- Homepage DE -->
   <url>
     <loc>https://signage.cockpit360.de/de/</loc>
-    <lastmod>2026-01-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://signage.cockpit360.de/de/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://signage.cockpit360.de/de/"/>
     <image:image>
       <image:loc>https://signage.cockpit360.de/images/og-image.png</image:loc>
-      <image:title>cockpit360 Signage - Digital Signage für Immobilienmakler</image:title>
-      <image:caption>Digitale Exposé-Präsentation im Schaufenster</image:caption>
+      <image:title>Digitales Exposé Software für Immobilienmakler - cockpit360 Signage</image:title>
+      <image:caption>Digitale Exposés und Schaufensterwerbung für Immobilienmakler</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://signage.cockpit360.de/images/signage-storefront-1.jpg</image:loc>
-      <image:title>Digitales Schaufenster Beispiel</image:title>
-      <image:caption>Moderne Immobilienpräsentation auf Display</image:caption>
+      <image:title>Digitales Exposé im Schaufenster Immobilienmakler</image:title>
+      <image:caption>Digitale Exposégestaltung auf Schaufensterdisplay für Makler</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-2.jpg</image:loc>
+      <image:title>Exposégestaltung Immobilien auf Display</image:title>
+      <image:caption>Moderne digitale Exposépräsentation im Immobilienbüro</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-3.jpg</image:loc>
+      <image:title>Digitaler Immobilienaushang Exposé</image:title>
+      <image:caption>Digitale Schaufensterwerbung mit Immobilien-Exposés</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-4.jpg</image:loc>
+      <image:title>Exposé Display System Immobilienmakler</image:title>
+      <image:caption>Professionelles Exposé-Display-System für Makler</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-5.jpg</image:loc>
+      <image:title>Schaufenster Exposé Digital Signage</image:title>
+      <image:caption>Elegante digitale Exposélösung im Schaufenster</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-6.png</image:loc>
+      <image:title>Digitales Exposé Software Screenshot</image:title>
+      <image:caption>Software-Screenshot der digitalen Exposégestaltung</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-7.png</image:loc>
+      <image:title>Immobilien Exposé Vorschau Display</image:title>
+      <image:caption>Vorschau der digitalen Exposépräsentation auf dem Display</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-8.png</image:loc>
+      <image:title>Exposégestaltung Software Benutzeroberfläche</image:title>
+      <image:caption>Intuitive Oberfläche für digitale Exposégestaltung</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-9.png</image:loc>
+      <image:title>Digitales Exposé Template Immobilien</image:title>
+      <image:caption>Professionelles Template für digitale Immobilien-Exposés</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/vorher.jpg</image:loc>
+      <image:title>Vorher - Klassischer Papier-Exposé Aushang</image:title>
+      <image:caption>Traditioneller Papier-Exposé Aushang vor der Digitalisierung</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/arbeitsplatz.png</image:loc>
+      <image:title>Digitale Exposégestaltung am Arbeitsplatz</image:title>
+      <image:caption>Immobilienmakler erstellt digitales Exposé mit cockpit360</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/cockpit360.png</image:loc>
+      <image:title>cockpit360 Logo - Digitale Exposés</image:title>
+      <image:caption>Logo cockpit360 solutions - Digitale Exposégestaltung</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/hintergrund_display2.jpg</image:loc>
+      <image:title>Exposé Display Hintergrund</image:title>
+      <image:caption>Professioneller Hintergrund für digitale Exposé-Displays</image:caption>
     </image:image>
   </url>
 
-  <!-- Englische Hauptseite -->
+  <!-- Homepage EN -->
   <url>
     <loc>https://signage.cockpit360.de/en/</loc>
-    <lastmod>2026-01-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://signage.cockpit360.de/de/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://signage.cockpit360.de/de/"/>
     <image:image>
       <image:loc>https://signage.cockpit360.de/images/og-image.png</image:loc>
-      <image:title>cockpit360 Signage - Digital Signage for Real Estate</image:title>
-      <image:caption>Digital property presentation in storefront</image:caption>
+      <image:title>Digital Property Listing Software for Real Estate Agents</image:title>
+      <image:caption>Digital property listings and window advertising for realtors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-1.jpg</image:loc>
+      <image:title>Digital Property Listing Window Display Real Estate</image:title>
+      <image:caption>Digital property presentation on window display for agents</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-2.jpg</image:loc>
+      <image:title>Real Estate Listing Display System</image:title>
+      <image:caption>Modern digital property listing presentation in office</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-3.jpg</image:loc>
+      <image:title>Digital Property Listing Signage</image:title>
+      <image:caption>Digital window advertising with property listings</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://signage.cockpit360.de/images/signage-storefront-6.png</image:loc>
+      <image:title>Digital Listing Software Screenshot</image:title>
+      <image:caption>Software screenshot of digital property listing creation</image:caption>
     </image:image>
   </url>
 
   <!-- Impressum DE -->
   <url>
     <loc>https://signage.cockpit360.de/de/impressum/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/impressum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/impressum/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/impressum/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/impressum/"/>
   </url>
 
   <!-- Impressum EN -->
   <url>
     <loc>https://signage.cockpit360.de/en/impressum/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/impressum/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/impressum/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/impressum/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/impressum/"/>
   </url>
 
   <!-- Datenschutz DE -->
   <url>
     <loc>https://signage.cockpit360.de/de/datenschutz/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/datenschutz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/datenschutz/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/datenschutz/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/datenschutz/"/>
   </url>
 
   <!-- Datenschutz EN -->
   <url>
     <loc>https://signage.cockpit360.de/en/datenschutz/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/datenschutz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/datenschutz/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/datenschutz/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/datenschutz/"/>
   </url>
 
   <!-- AGB DE -->
   <url>
     <loc>https://signage.cockpit360.de/de/agb/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/agb/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/agb/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/agb/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/agb/"/>
   </url>
 
   <!-- AGB EN -->
   <url>
     <loc>https://signage.cockpit360.de/en/agb/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/agb/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/agb/" />
+    <lastmod>2026-01-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://signage.cockpit360.de/de/agb/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://signage.cockpit360.de/en/agb/"/>
   </url>
 
 </urlset>
