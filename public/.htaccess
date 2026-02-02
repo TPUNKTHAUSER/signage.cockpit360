@@ -1,8 +1,23 @@
 # Minimal htaccess for Next.js static export
 DirectoryIndex index.html
 
-# Redirect root to German version
+# Ensure correct MIME types
+<IfModule mod_mime.c>
+AddType application/json .json
+AddType application/manifest+json .webmanifest
+</IfModule>
+
+# Allow access to manifest.json
+<Files "manifest.json">
+Require all granted
+</Files>
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule ^$ /de/ [L,R=302]
+
+# Redirect root to German version
+RewriteRule ^$ /de/ [L,R=301]
+
+# Redirect pages without locale prefix to German version
+RewriteRule ^(datenschutz|impressum|agb)/?$ /de/$1/ [L,R=301]
 </IfModule>
