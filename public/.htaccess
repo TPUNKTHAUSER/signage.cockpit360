@@ -1,4 +1,5 @@
 # Minimal htaccess for Next.js static export
+Options +FollowSymLinks -MultiViews
 DirectoryIndex index.html
 
 # Ensure correct MIME types
@@ -14,10 +15,13 @@ Require all granted
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteBase /
 
 # Redirect root to German version
 RewriteRule ^$ /de/ [L,R=301]
 
 # Redirect pages without locale prefix to German version
-RewriteRule ^(datenschutz|impressum|agb)/?$ /de/$1/ [L,R=301]
+RewriteRule ^datenschutz/?$ /de/datenschutz/ [L,R=301]
+RewriteRule ^impressum/?$ /de/impressum/ [L,R=301]
+RewriteRule ^agb/?$ /de/agb/ [L,R=301]
 </IfModule>
